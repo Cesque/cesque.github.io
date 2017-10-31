@@ -15,6 +15,16 @@ body {
   position: relative;
 }
 
+.padding {
+  height: 215px;
+  width: 100%;
+}
+
+.padding-small {
+  height: 80px;
+  width: 100%;
+}
+
 .section::before {
   content: '';
   position: absolute;
@@ -109,7 +119,7 @@ body {
   background-color: white;
   vertical-align: middle;
   text-align: center;
-  font-size: 3em;
+  font-size: 2.5em;
   font-weight: lighter;
   position: relative;
 }
@@ -117,13 +127,68 @@ body {
 .box-left {
   margin-left: 20%;
   margin-right: 40%;
+  text-align: left;
 }
 
 .box-right {
   margin-left: 40%;
   margin-right: 20%;
+  text-align: right;
 }
 
-.bold {
+strong {
   font-weight: 700;
+}
+
+/* .yellow strong {
+  color: #ffde00;
+}
+
+.red strong {
+  color: #e74c3c;
+}
+
+.blue strong {
+  color: #3498db;
+}
+
+.green strong {
+  color: #2ecc71;
+}
+
+.purple strong {
+  color: #9b59b6;
+} */
+
+a {
+  color: black;
+  font-weight: 400;
+  text-decoration-style: underline;
+  text-decoration-skip: ink;
+}
+
+a:hover {
+  color: #444;
+  text-decoration-style: dotted;
+  font-weight: 400;
+}
+
+.yellow a {
+  text-decoration-color: #ffde00;
+}
+
+.red a {
+  text-decoration-color: #e74c3c;
+}
+
+.blue a {
+  text-decoration-color: #3498db;
+}
+
+.green a {
+  text-decoration-color: #2ecc71;
+}
+
+.purple a {
+  text-decoration-color: #9b59b6;
 }
